@@ -12,6 +12,6 @@ if($con){
 	}
 	mysqli_close($con);
 }else{
-	echo 'localhost\'s test failed';
+	echo 'localhost连接数据库错误';
 }
 ?>
