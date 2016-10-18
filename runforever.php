@@ -9,7 +9,7 @@ while(1){
 		//echo 'localhost\'s test is connected<br>';
 		$result = mysqli_query($con, "select username, password, uuid from users");
 		while($rows = mysqli_fetch_array($result)){
-			$word=$word."你好! ".date("Y-m-d H:i:s")." username=".$rows[username]."\r\n";	//清空写入
+			$word=$word."你好! ".date("Y-m-d H:i:s")." 秒数：".time()."  username=".$rows[username]."\r\n";	//清空写入
 //			file_put_contents($filename, $word, FILE_APPEND); //追加写入
 		}
 		file_put_contents($filename, $word);
