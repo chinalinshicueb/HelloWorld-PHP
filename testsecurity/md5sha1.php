@@ -1,6 +1,6 @@
 <?php
 	$rawData = "我的数据abc123";
-	$rawDataFilename = "../index.php";
+	$rawDataFilename = "../testfile/data/10M.log";
 	
 	echo "<p>md5($rawData):".md5($rawData);
 	echo "<p>md5($rawData, true):".md5($rawData, true);
