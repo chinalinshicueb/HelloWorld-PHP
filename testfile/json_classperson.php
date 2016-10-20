@@ -14,4 +14,4 @@ class AClass{
 	public $students = Array();
 }
 
-$classfilename = "data/class.json";
+$classfilename = "data/json/class.json";
